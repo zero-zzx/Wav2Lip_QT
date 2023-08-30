@@ -20,3 +20,6 @@ Wav2Lip 代码库中包含了四个预训练的模型文件，分别是：
 1 个人脸检测器（face detector）模型，用于在视频或图像中检测出人脸，以便将嘴唇运动应用到正确的位置。模型文件为“face_detection.pth”。
 1 个姿态估计器（pose estimator）模型，用于检测人脸的姿态（例如头部的旋转和倾斜角度），以便更好地调整嘴唇运动。模型文件为“pose_detection.pth”。
 这些模型文件是预训练的，并且在使用 Wav2Lip 进行口型运动生成时需要使用它们。
+
+针对wav2lip做了汉化，增加了界面
+![main](https://github.com/zero-zzx/Wav2Lip_QT/assets/88955080/a8ec75ad-71df-4ba6-b4db-c3f58146d379)
